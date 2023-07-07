@@ -58,6 +58,7 @@
     margin: 1rem;
 }
 
+
 .gpt3__footer-links_logo {
     display: flex;
     flex-direction: column;
@@ -84,21 +85,20 @@
 }
 
 .gpt3__footer-links_div h4 {
-    font-size: 14px;
+    font-size: 28px;
     line-height: 17px;
     font-family: var(--font-family);
     color: #fff;
 
-    margin-bottom: 0.9rem;
+    margin-bottom: 1.5rem;
 }
 
 .gpt3__footer-links_div p {
-    font-size: 12px;
+    font-size: 18px;
     line-height: 15px;
     font-family: var(--font-family);
     color: #fff;
-
-    margin: 0.5rem 0;
+    margin: 1rem 0;
     cursor: pointer;
 }
 
@@ -120,6 +120,17 @@
         font-size: 44px;
         line-height: 50px;
     }
+
+    .gpt3__footer-links_div h4 {
+        font-size: 24px;
+        margin-bottom: 1.2rem;
+    }
+    
+    .gpt3__footer-links_div p {
+        font-size: 14px;
+        margin: 0.8rem 0;
+    }
+    
 }
 
 @media screen and (max-width: 550px) {
@@ -136,11 +147,31 @@
         font-size: 14px;
         line-height: 20px;
     }
+
+    .gpt3__footer-links_div h4 {
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+    
+    .gpt3__footer-links_div p {
+        font-size: 10px;
+        margin: 0.6rem 0;
+    }
 }
 
 @media screen and (max-width: 400px) {
     .gpt3__footer-heading h1 {
         font-size: 27px;
         line-height: 38px;
+    }
+
+    .gpt3__footer-links_div h4 {
+        font-size: 17px;
+        margin-bottom: 0.8rem;
+    }
+    
+    .gpt3__footer-links_div p {
+        font-size: 8px;
+        margin: 0.6rem 0;
     }
 }
